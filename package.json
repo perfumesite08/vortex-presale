@@ -3,23 +3,24 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.5",
     "axios": "^1.0.0",
     "ethers": "^6.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.5.3",
-    "react-scripts": "^3.0.1"
+    "react-router-dom": "^7.5.3"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.5",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.5"
   },
   "browserslist": {
     "production": [
@@ -33,7 +34,7 @@
       "last 1 safari version"
     ]
   },
-  "main": "postcss.config.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/perfumesite08/vortrex-presale.git"
